@@ -23,16 +23,16 @@ namespace WebApplication1
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseMigrationsEndPoint();
-            }
-            else
-            {
+            //if (app.Environment.IsDevelopment())
+            //{
+            //    app.UseMigrationsEndPoint();
+            //}
+            //else
+            //{
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
-            }
+            //}
 
             //HTTP要求管線
             app.UseHttpsRedirection(); //瀏覽HTTP網址--自動重導至HTTPS網址
@@ -45,6 +45,10 @@ namespace WebApplication1
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+            //{}內是變數
+            //=代表預設值
+            //?代表可不填
+
             app.MapRazorPages();
 
             app.Run();

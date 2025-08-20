@@ -11,10 +11,9 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WebApplication1-3e6300b6-8df9-4465-99e9-7f80d7b38054")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApplication1")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1b982cb5cabef1ddb132954e41553292a07c6fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApplication1")]
