@@ -1,44 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\git\\MVC\\WebApplication1\\",
+  "WorkspaceRootPath": "D:\\MVC\\MVC\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|g:\\git\\mvc\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|g:\\git\\mvc\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|g:\\git\\mvc\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|g:\\git\\mvc\\webapplication1\\webapplication1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|g:\\git\\mvc\\webapplication1\\webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5026671D-E02A-4F8E-9040-2F261F2C37EC}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 304,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 186,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
@@ -46,71 +26,23 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T09:29:59.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAABIAAAAANzMzM7MqwBgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T09:18:40.885Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAADQAAAAAIA7wBYAAAAOAAAAAAAAAA==",
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Models\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Models\\NorthwindContext.cs",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Models\\NorthwindContext.cs",
+              "RelativeToolTip": "CustomerWebSite\\Models\\NorthwindContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwA8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T09:10:25.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T09:09:31.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
-              "ToolTip": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T09:08:40.653Z",
+              "WhenOpened": "2025-08-21T08:05:40.091Z",
               "EditorCaption": ""
             }
           ]

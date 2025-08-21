@@ -2,7 +2,29 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Styles{
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+<style>
+
+</style>
+}
+
+<link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>FUEN全端班 <a href="https://learn.microsoft.com/aspnet/core">全端班專題發表</a>.</p>
 </div>
+
+@section Scripts{
+    <environment include="Development">
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+<script>
+    test();
+</script>
+}

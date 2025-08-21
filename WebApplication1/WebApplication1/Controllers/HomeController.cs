@@ -24,12 +24,14 @@ namespace WebApplication1.Controllers
         //建議寫上預設值動詞
         //確認動詞的同時可避免重複uri
 
+        /*
         //Post Home/Index
         [HttpPost]
         public IActionResult Index(int n)
         {
             return View();  //Index.cshtml
         }
+        */
 
         //Get Home/Privacy
         [HttpGet]
