@@ -1,4 +1,5 @@
 using CustomerWebSite.Data;
+using CustomerWebSite.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,11 +11,15 @@ namespace CustomerWebSite
 		{
 			var builder = WebApplication.CreateBuilder(args);
 
-			// Add services to the container.
+			// Add services to the DI container.
 			var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 			builder.Services.AddDbContext<ApplicationDbContext>(options =>
 				options.UseSqlServer(connectionString));
 			builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+			builder.Services.AddDbContext<NorthwindContext>(options => { 
+			options.UseSqlServer(builder.Configuration.GetConnectionString("Northwind"));
+			});
 
 			builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 				.AddEntityFrameworkStores<ApplicationDbContext>();

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\MVC\\MVC\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|d:\\mvc\\mvc\\webapplication1\\customerwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7072211-DBDC-458C-99D7-3B0E7076DE34}|CustomerWebSite\\CustomerWebSite.csproj|solutionrelative:customerwebsite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 186,
+          "DockedWidth": 236,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -35,14 +55,85 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NorthwindContext.cs",
-              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Models\\NorthwindContext.cs",
-              "RelativeDocumentMoniker": "CustomerWebSite\\Models\\NorthwindContext.cs",
-              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Models\\NorthwindContext.cs",
-              "RelativeToolTip": "CustomerWebSite\\Models\\NorthwindContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwA8AAABGAAAAAAAAAA==",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CustomerWebSite\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T08:13:39.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "CustomerWebSite\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T07:28:46.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Program.cs",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Program.cs",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Program.cs",
+              "RelativeToolTip": "CustomerWebSite\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:05:40.091Z",
+              "WhenOpened": "2025-08-22T07:08:01.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CustomerWebSite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T03:54:16.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomerWebSite\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:05:32.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "CustomerWebSite\\Views\\Customers\\Details.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CustomerWebSite\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "CustomerWebSite\\Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-22T07:28:48.065Z",
               "EditorCaption": ""
             }
           ]
