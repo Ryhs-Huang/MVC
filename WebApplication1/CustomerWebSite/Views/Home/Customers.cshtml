@@ -4,7 +4,7 @@
     ViewData["Title"] = "Customers";
 }
 
-<h1>客戶總數: @Context.Customers.Count()人</h1>
+<h1>客戶總數: <cache expires-after="@TimeSpan.FromSeconds(60)"> @Context.Customers.Count()</cache>人</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
