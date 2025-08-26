@@ -8042,23 +8042,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ispan\\.nuget\\packages\\": {},
+    "C:\\Users\\hywga\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MVC\\MVC\\WebApplication1\\FuenPlatform\\FuenPlatform.csproj",
+      "projectUniqueName": "G:\\git\\MVC\\WebApplication1\\FuenPlatform\\FuenPlatform.csproj",
       "projectName": "FuenPlatform",
-      "projectPath": "D:\\MVC\\MVC\\WebApplication1\\FuenPlatform\\FuenPlatform.csproj",
-      "packagesPath": "C:\\Users\\ispan\\.nuget\\packages\\",
-      "outputPath": "D:\\MVC\\MVC\\WebApplication1\\FuenPlatform\\obj\\",
+      "projectPath": "G:\\git\\MVC\\WebApplication1\\FuenPlatform\\FuenPlatform.csproj",
+      "packagesPath": "C:\\Users\\hywga\\.nuget\\packages\\",
+      "outputPath": "G:\\git\\MVC\\WebApplication1\\FuenPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ispan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hywga\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

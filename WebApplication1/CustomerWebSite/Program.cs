@@ -15,11 +15,23 @@ namespace CustomerWebSite
 			var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 			builder.Services.AddDbContext<ApplicationDbContext>(options =>
 				options.UseSqlServer(connectionString));
+
 			builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 			builder.Services.AddDbContext<NorthwindContext>(options => { 
 			options.UseSqlServer(builder.Configuration.GetConnectionString("Northwind"));
 			});
+
+			builder.Services.AddSession(options =>
+			{
+				options.Cookie.Name = ".CustomerWebSite.Session";
+				options.IdleTimeout = TimeSpan.FromMinutes(5);
+				options.Cookie.IsEssential = true;
+				options.Cookie.HttpOnly = true;
+				options.Cookie.SecurePolicy=CookieSecurePolicy.Always;
+			});
+
+			builder.Services.AddDistributedMemoryCache();
 
 			builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
 				.AddEntityFrameworkStores<ApplicationDbContext>();
@@ -45,6 +57,8 @@ namespace CustomerWebSite
 			app.UseRouting();
 
 			app.UseAuthorization();
+
+			app.UseSession();
 
 			app.MapControllerRoute(
 				name: "default",
