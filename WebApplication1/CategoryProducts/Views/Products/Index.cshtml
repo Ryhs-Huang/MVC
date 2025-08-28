@@ -1,83 +1,89 @@
-﻿@model IEnumerable<CategoryProducts.Models.Product>
+﻿@section Styles
+{
+	<link href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.min.css" rel="stylesheet" />
 
-@{
-    ViewData["Title"] = "Index";
+	<style>
+
+	</style>
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ProductName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SupplierId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.QuantityPerUnit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UnitPrice)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UnitsInStock)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UnitsOnOrder)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ReorderLevel)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Discontinued)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SupplierId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.QuantityPerUnit)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UnitPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UnitsInStock)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UnitsOnOrder)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReorderLevel)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Discontinued)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
+<table class="table table-scriped table-hover">
+	<thead class="table-primary">
+		<tr>
+			<td>ProductId</td>
+			<td>ProductName</td>
+			<td>SupplierId</td>
+			<td>CategoryId</td>
+			<td>QuantityPerUnit</td>
+			<td>UnitPrice</td>
+			<td>UnitsInStock</td>
+			<td>UnitsOnOrder</td>
+			<td>ReorderLevel</td>
+			<td>Discontinued</td>
+		</tr>
+	</thead>
 </table>
+
+
+@section Scripts
+{
+	<script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
+	<script src="https://cdn.datatables.net/2.3.3/js/dataTables.min.js"></script>
+	<script>
+	$(document).ready(function(){
+// $("table").dataTable({
+// 	ajax:{
+// 		type:"POST",
+// 		url:"/Products/IndexJson",
+// 		dataSrc:function(data){
+// 			對data加工處理
+// 			alert(data);
+// 			return data;
+// 		}
+// 	},
+// 	columns:[
+// 				{data:"productId",width:"10%"},
+// 				{data:"productName",width:"10%"},
+// 				{data:"supplierId",width:"10%"},
+// 				{data:"categoryId",width:"10%"},
+// 				{data:"quantityPerUnit",width:"10%"},
+// 				{data:"unitPrice",width:"10%"},
+// 				{data:"unitsInStock",width:"10%"},
+// 				{data:"unitsOnOrder",width:"10%"},
+// 				{data:"reorderLevel",width:"10%"},
+// 				{data:"discontinued",width:"10%"}
+// 	],
+			$("table").dataTable({
+				processing: true,
+				serverSide: true,
+				ajax:{
+					type:"POST",
+					url: "Products/IndexJson",
+					// dataSrc:function(data){
+					//     //對data加工處理
+					//     //alert(JSON.stringify(data));
+					//     return data;
+					// }
+				},
+		 columns:[
+							{ data:"productId", width: "10%"},
+							{ data:"productName", width: "10%"},
+							{ data:"supplierId", width: "10%"},
+							{ data:"categoryId", width: "10%"},
+							{ data:"quantityPerUnit", width: "10%"},
+							{ data:"unitPrice", width: "10%"},
+							{ data:"unitsInStock", width: "10%"},
+							{ data:"unitsOnOrder", width: "10%"},
+							{ data:"reorderLevel", width: "10%"},
+							{ data:"discontinued", width: "10%"},
+						],
+						fixedHeader:{
+							header:true
+						},
+						language: {
+							url: '//cdn.datatables.net/plug-ins/2.3.3/i18n/zh-HANT.json',
+						},
+					});
+				});
+	</script>
+}

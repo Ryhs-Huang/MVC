@@ -4452,23 +4452,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hywga\\.nuget\\packages\\": {},
+    "C:\\Users\\ispan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\MVC\\MVC\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\hywga\\.nuget\\packages\\",
-      "outputPath": "G:\\git\\MVC\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "D:\\MVC\\MVC\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\ispan\\.nuget\\packages\\",
+      "outputPath": "D:\\MVC\\MVC\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hywga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ispan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuenPlatform")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af7559c9ac020118d261d016ab5d7cd24806f9c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b41fcec7513e1f1687470d6072597309cafe2b75")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuenPlatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuenPlatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
