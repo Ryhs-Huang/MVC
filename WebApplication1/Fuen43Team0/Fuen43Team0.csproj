@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Fuen43Team0-add823ce-a4a0-43a8-8e6e-d89f2ccc5650</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Accouting\Views\Home\NewFolder\**" />
+    <Compile Remove="Areas\Accouting\Views\NewFolder1\**" />
+    <Content Remove="Areas\Accouting\Views\Home\NewFolder\**" />
+    <Content Remove="Areas\Accouting\Views\NewFolder1\**" />
+    <EmbeddedResource Remove="Areas\Accouting\Views\Home\NewFolder\**" />
+    <EmbeddedResource Remove="Areas\Accouting\Views\NewFolder1\**" />
+    <None Remove="Areas\Accouting\Views\Home\NewFolder\**" />
+    <None Remove="Areas\Accouting\Views\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.19" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Accouting\Data\" />
+    <Folder Include="Areas\Accouting\Models\" />
+  </ItemGroup>
+
+</Project>

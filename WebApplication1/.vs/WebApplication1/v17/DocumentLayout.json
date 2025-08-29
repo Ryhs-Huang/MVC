@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\MVC\\MVC\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6EB9577-1F19-4142-9AF2-C10934933978}|CategoryProducts\\CategoryProducts.csproj|d:\\mvc\\mvc\\webapplication1\\categoryproducts\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6EB9577-1F19-4142-9AF2-C10934933978}|CategoryProducts\\CategoryProducts.csproj|solutionrelative:categoryproducts\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|d:\\mvc\\mvc\\webapplication1\\fuen43team0\\areas\\accouting\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|solutionrelative:fuen43team0\\areas\\accouting\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EB9577-1F19-4142-9AF2-C10934933978}|CategoryProducts\\CategoryProducts.csproj|d:\\mvc\\mvc\\webapplication1\\categoryproducts\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EB9577-1F19-4142-9AF2-C10934933978}|CategoryProducts\\CategoryProducts.csproj|solutionrelative:categoryproducts\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|d:\\mvc\\mvc\\webapplication1\\fuen43team0\\areas\\accouting\\views\\shared\\_accoutinglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|solutionrelative:fuen43team0\\areas\\accouting\\views\\shared\\_accoutinglayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EB9577-1F19-4142-9AF2-C10934933978}|CategoryProducts\\CategoryProducts.csproj|d:\\mvc\\mvc\\webapplication1\\categoryproducts\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6EB9577-1F19-4142-9AF2-C10934933978}|CategoryProducts\\CategoryProducts.csproj|solutionrelative:categoryproducts\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|d:\\mvc\\mvc\\webapplication1\\fuen43team0\\areas\\accouting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|solutionrelative:fuen43team0\\areas\\accouting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|d:\\mvc\\mvc\\webapplication1\\fuen43team0\\areas\\accouting\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|solutionrelative:fuen43team0\\areas\\accouting\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|d:\\mvc\\mvc\\webapplication1\\fuen43team0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F074CB4E-A7E9-4F9F-8E2C-8DF0EF40F8B8}|Fuen43Team0\\Fuen43Team0.csproj|solutionrelative:fuen43team0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,46 +51,72 @@
           ]
         },
         {
-          "DockedWidth": 232,
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CategoryProducts\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "CategoryProducts\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CategoryProducts\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "CategoryProducts\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAACAAAAAAAAAA==",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Fuen43Team0\\Areas\\Accouting\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Fuen43Team0\\Areas\\Accouting\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T08:41:58.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CategoryProducts\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CategoryProducts\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CategoryProducts\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CategoryProducts\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T07:52:10.744Z",
+              "WhenOpened": "2025-08-29T07:55:08.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\CategoryProducts\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "CategoryProducts\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\CategoryProducts\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "CategoryProducts\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Title": "_AccoutingLayout.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Views\\Shared\\_AccoutingLayout.cshtml",
+              "RelativeDocumentMoniker": "Fuen43Team0\\Areas\\Accouting\\Views\\Shared\\_AccoutingLayout.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Views\\Shared\\_AccoutingLayout.cshtml",
+              "RelativeToolTip": "Fuen43Team0\\Areas\\Accouting\\Views\\Shared\\_AccoutingLayout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T07:25:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Fuen43Team0\\Areas\\Accouting\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Fuen43Team0\\Areas\\Accouting\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-29T07:11:59.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Fuen43Team0\\Areas\\Accouting\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Areas\\Accouting\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Fuen43Team0\\Areas\\Accouting\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:51:37.179Z",
+              "WhenOpened": "2025-08-29T07:11:49.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Program.cs",
+              "RelativeDocumentMoniker": "Fuen43Team0\\Program.cs",
+              "ToolTip": "D:\\MVC\\MVC\\WebApplication1\\Fuen43Team0\\Program.cs",
+              "RelativeToolTip": "Fuen43Team0\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAC4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T07:03:37.515Z",
               "EditorCaption": ""
             }
           ]

@@ -27,8 +27,8 @@
 
 @section Scripts
 {
-	<script src="~/lib/datatables/js/jquery.datatables.min.js"></script>
 	<script src="https://cdn.datatables.net/2.3.3/js/dataTables.min.js"></script>
+	<script src="//cdn.datatables.net/fixedheader/3.3.1/js/dataTables.fixedHeader.min.js"></script>
 	<script>
 	$(document).ready(function(){
 // $("table").dataTable({
@@ -65,25 +65,26 @@
 					//     return data;
 					// }
 				},
-		 columns:[
-							{ data:"productId", width: "10%"},
-							{ data:"productName", width: "10%"},
-							{ data:"supplierId", width: "10%"},
-							{ data:"categoryId", width: "10%"},
-							{ data:"quantityPerUnit", width: "10%"},
-							{ data:"unitPrice", width: "10%"},
-							{ data:"unitsInStock", width: "10%"},
-							{ data:"unitsOnOrder", width: "10%"},
-							{ data:"reorderLevel", width: "10%"},
-							{ data:"discontinued", width: "10%"},
-						],
-						fixedHeader:{
-							header:true
-						},
-						language: {
-							url: '//cdn.datatables.net/plug-ins/2.3.3/i18n/zh-HANT.json',
-						},
-					});
-				});
+				columns:
+				[
+					{ data:"productId", width: "10%"},
+					{ data:"productName", width: "10%"},
+					{ data:"supplierId", width: "10%"},
+					{ data:"categoryId", width: "10%"},
+					{ data:"quantityPerUnit", width: "10%"},
+					{ data:"unitPrice", width: "10%"},
+					{ data:"unitsInStock", width: "10%"},
+					{ data:"unitsOnOrder", width: "10%"},
+					{ data:"reorderLevel", width: "10%"},
+					{ data:"discontinued", width: "10%"},
+				],
+				fixedHeader:{
+					header:true
+				},
+				language: {
+					url: '//cdn.datatables.net/plug-ins/2.3.3/i18n/zh-HANT.json',
+				},
+			});
+	});
 	</script>
 }

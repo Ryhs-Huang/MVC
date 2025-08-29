@@ -38,8 +38,14 @@ namespace CategoryProducts.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
+            var category = await _context.Categories.Select(c=>new Category
+            {
+                CategoryId=c.CategoryId,
+                CategoryName=c.CategoryName,
+                Description=c.Description,
+                Picture=null
+
+            }).FirstOrDefaultAsync(m => m.CategoryId == id);
             if (category == null)
             {
                 return NotFound();
@@ -68,26 +74,46 @@ namespace CategoryProducts.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Create([Bind("CategoryId,CategoryName,Description,Picture")] Category category)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
+				if (Request.Form.Files["Picture"] != null) //如果有上傳圖片，做覆蓋
+				{
+					ReadUploadImage(category);
+				}
+				_context.Add(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
         }
 
-        // GET: Categories/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+		private void ReadUploadImage(Category category)
+		{
+			using (BinaryReader reader = new BinaryReader(Request.Form.Files["Picture"].OpenReadStream()))
+			{
+				category.Picture = reader.ReadBytes((int)Request.Form.Files["Picture"].Length);
+			}
+		}
+
+		// GET: Categories/Edit/5
+		public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var category = await _context.Categories.FindAsync(id);
+            var category = await _context.Categories.Select(c => new Category
+			{
+				CategoryId = c.CategoryId,
+				CategoryName = c.CategoryName,
+				Description = c.Description,
+				Picture = null
+
+			}).FirstOrDefaultAsync(m => m.CategoryId == id);
             if (category == null)
             {
                 return NotFound();
@@ -100,7 +126,9 @@ namespace CategoryProducts.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CategoryId,CategoryName,Description,Picture")] Category category)
+		[RequestFormLimits(MultipartBodyLengthLimit = 2048000)]
+		[RequestSizeLimit(2048000)]
+		public async Task<IActionResult> Edit(int id, [Bind("CategoryId,CategoryName,Description,Picture")] Category category)
         {
             if (id != category.CategoryId)
             {
@@ -109,22 +137,33 @@ namespace CategoryProducts.Controllers
 
             if (ModelState.IsValid)
             {
-                try
+                Category? c=await _context.Categories.FindAsync(category.CategoryId);
+                if (Request.Form.Files["Picture"] != null) //如果有上傳圖片，做覆蓋
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
+					ReadUploadImage(category);
+				}
+                else
                 {
-                    if (!CategoryExists(category.CategoryId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    category.Picture = c.Picture;//如果使用者未上傳圖片，則維持原圖(無上傳不可覆蓋)
                 }
+                _context.Entry(c).State = EntityState.Detached;//卸離c，只追蹤category(因開頭有做FindAsync查找圖片)
+
+                    try
+                    {
+                        _context.Update(category);
+                        await _context.SaveChangesAsync();
+                    }
+                    catch (DbUpdateConcurrencyException)
+                    {
+                        if (!CategoryExists(category.CategoryId))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                    }
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
@@ -138,8 +177,13 @@ namespace CategoryProducts.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
+            var category = await _context.Categories.Select(c=>new Category
+            {
+				CategoryId = c.CategoryId,
+				CategoryName = c.CategoryName,
+                Description= c.Description,
+                Picture=null
+            }).FirstOrDefaultAsync(m => m.CategoryId == id);
             if (category == null)
             {
                 return NotFound();
