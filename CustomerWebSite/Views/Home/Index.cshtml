@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Style
+{
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+}
+
+<div class="text-center">
+    @* <h1 class="display-4">Welcome:@ViewBag.Message</h1> *@
+    <h1 class="display-4">Welcome:@TempData["Message"]</h1>
+
+    <img width="400px" asp-append-version="true" src="~/images/dog.jpg" />
+
+    <div class="container" style="width:40%">
+        <h3 class="mb-3 text-center">請選擇</h3>
+        <div class="form-floating mb-3">
+            <select class="form-select" asp-items="@ViewBag.CustomerCounty"></select>
+            <label class="form-label">國家</label>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <!-- 引入外部 js -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- 寫你自己的 js -->
+    <script>
+        @Html.Raw(ViewBag.Script)
+    </script>
+    @* 自己的程式要寫在<script> *@
+
+
+}

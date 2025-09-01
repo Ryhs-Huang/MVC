@@ -1,0 +1,43 @@
+﻿@* 移到_ViewImports *@
+@* @using CustomerWebSite.ViewModels  *@
+
+@* 這行是在定義 Model 屬性的型態 Type *@
+@* 定義的是 View 內 Model 屬性的型別 *@
+@* 意思：View 裡內建的 Model 屬性（@Model）的型別是 ContactViewModel *@
+@* 這樣 View 裡就可以使用 Model.Name、Model.Email 等屬性來讀取或顯示資料，也能配合 asp-for 做雙向繫結 *@
+@model ContactViewModel
+
+<form asp-controller="Home" asp-action="Contact">
+    <div class="container" style="width40%">
+        <h3 class=" mb-3 text-center">輸入聯絡資訊</h3>
+        <div asp-validation-summary="All" class="mb-3 text-danger"></div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Name" class="form-control" placeholder=" ">
+            <label asp-for="Name" class="form-label"></label>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Email" type="text" class="form-control" placeholder=" ">
+            <label asp-for="Email" class="form-label"></label>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input asp-for="Phone" class="form-control" placeholder=" ">
+            <label asp-for="Phone" class="form-label"></label>
+            <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">提交</button>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

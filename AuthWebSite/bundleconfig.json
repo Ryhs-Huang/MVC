@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/qrcode/qr.min.js",
+    "inputFiles": [
+      "wwwroot/qrcode/qr.js"
+    ]
+  }
+]

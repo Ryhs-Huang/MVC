@@ -1,0 +1,22 @@
+﻿@model Category
+@inject NorthwindContext context
+@* 注入的 context，是一個 DbContext 物件 (NorthwindContext)，可以用來存取資料庫 *@
+
+@* 為了圖片置中加的div *@
+<div class="text-center">
+@{
+    // 在伺服器端使用 DbContext 判斷該分類是否有圖片，並決定要顯示資料庫圖片或預設圖
+    Category? category = await context.Categories.FindAsync(Model.CategoryId);
+    if (category != null && category.Picture != null)
+    {
+        <img src="@Url.Action("GetPicture", "Categories", new { id = Model.CategoryId })"
+             title=" @Html.DisplayFor(model => model.CategoryName)"
+             style="height:300px" />
+    }
+    else
+    {
+            <img id="imgPreview" src="~/images/noimage.jpg" title="尚無圖片" asp-append-version="true" style="width:100px" />
+    }
+}
+</div>
+
